@@ -1,0 +1,59 @@
+/*初始化*/
+body,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,input,button,p {
+	margin: 0;
+	padding: 0;
+}
+/* body {
+	font: 12px microsoft yahei;
+	color: #9999a5;
+} */
+img {
+	/*清除图片底部默认缝隙*/
+	vertical-align: middle;
+	border: 0 none;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-weight: normal;
+}
+em,i {
+	font-style: normal;
+}
+li {
+	list-style: none;
+}
+input,button {
+	border: 0 none;
+	outline-style: none;
+}
+a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:after {
+	content:".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+.clearfix {
+	zoom: 1;
+
+h2 {
+	font-size: 26px;
+}
+ @font-face {
+  font-family: 'iconfont';
+  src: url('../iconfont/iconfont.eot');
+  src: url('../iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../iconfont/iconfont.woff') format('woff'),
+  url('../iconfont/iconfont.ttf') format('truetype'),
+  url('../iconfont/iconfont.svg#iconfont') format('svg');
+}
